@@ -92,7 +92,7 @@ autoplaySpeed: 800,
 });
 
 // count_dwon
-$('#clock').countdown('2020/03/10', function(event) {
+$('#clock').countdown('2020/03/14', function(event) {
   $(this).html(event.strftime('<div class="countdown_time"><div class="single_countdown"><h3>%D</h3><span>Jours</span></div><div class="single_countdown"><h3>%H</h3><span>Heures</span></div><div class="single_countdown"><h3>%M</h3><span>Minutes</span></div><div class="single_countdown"><h3>%S</h3><span>Secondes</span></div></div>'));
 });
 
